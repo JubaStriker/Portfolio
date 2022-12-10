@@ -2,8 +2,8 @@
 
 function App() {
   return (
-    <div>
-
+    <div className="">
+      <h1 className="text-center">Hi</h1>
     </div>
   );
 }
