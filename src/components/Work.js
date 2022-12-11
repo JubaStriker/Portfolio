@@ -1,6 +1,11 @@
 import React from 'react';
 import WorkImg from '../assets/projects/workImg.jpeg'
 import Real from '../assets/projects/realestate.jpg'
+import PCT from '../assets/projects/Croped/PCTreasure.png';
+import Codabyte from '../assets/projects/Croped/Codabyte.png';
+import Photoholic from '../assets/projects/Croped/Photoholic.png';
+import Brainstorm from '../assets/projects/Croped/BrainStorm.png';
+
 
 const Work = () => {
     return (
@@ -13,7 +18,12 @@ const Work = () => {
                 {/* container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid item */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }}
+
+
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1200"
+                        style={{ backgroundImage: `url(${PCT})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-center tracking-wider'>
@@ -29,6 +39,50 @@ const Work = () => {
 
                             </div>
                         </div>
+
+                    </div>
+                    <div
+                        data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1700"
+                        style={{ backgroundImage: `url(${Codabyte})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-center tracking-wider'>
+                                React JS Application
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2200"
+                        style={{ backgroundImage: `url(${Photoholic})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-center tracking-wider'>
+                                React JS Application
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
