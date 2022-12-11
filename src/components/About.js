@@ -1,5 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
 
 const About = () => {
     return (
@@ -29,6 +28,7 @@ const About = () => {
 
                 </div>
             </div>
+
 
         </div>
     );

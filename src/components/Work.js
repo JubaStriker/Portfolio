@@ -1,6 +1,4 @@
 import React from 'react';
-import WorkImg from '../assets/projects/workImg.jpeg'
-import Real from '../assets/projects/realestate.jpg'
 import PCT from '../assets/projects/Croped/PCTreasure.png';
 import Codabyte from '../assets/projects/Croped/Codabyte.png';
 import Photoholic from '../assets/projects/Croped/Photoholic.png';
@@ -12,7 +10,7 @@ const Work = () => {
         <div name='work' className='bg-[#0a192f] text-gray-300 w-full min-h-screen py-32'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Works</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Projects</p>
                     <p className='py-6'>Checkout my recent works</p>
                 </div>
                 {/* container */}
@@ -27,13 +25,13 @@ const Work = () => {
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-center tracking-wider'>
-                                React JS Application
+                                PC Treasure
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://pc-treasure.web.app/" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
-                                <a href="/" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JubaStriker/pc-treasure-client" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -49,13 +47,13 @@ const Work = () => {
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-center tracking-wider'>
-                                React JS Application
+                                Codabyte
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://practice-efc88.web.app/" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
-                                <a href="/" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JubaStriker/codabyte-client" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -70,13 +68,13 @@ const Work = () => {
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-center tracking-wider'>
-                                React JS Application
+                                PHOTOHOLIC
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://photoholic-d6cec.web.app/home" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
-                                <a href="/" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JubaStriker/photoholic-client" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
