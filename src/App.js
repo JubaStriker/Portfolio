@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="">
-      <Navbar />
+      <Navbar className="shadow-lg" />
       <Home />
     </div>
   );
