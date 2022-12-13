@@ -13,10 +13,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
-                    <div data-aos="fade-right" className='sm:text-right text-4xl font-bold'>
+                    <div data-aos="fade-up" className='sm:text-right text-4xl font-bold'>
                         <p>Hi, I'm Jubair, nice to meet you. Please take a look around</p>
                     </div>
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-down">
                         <p>
                             I am passionate about building excellent software that improves
                             the lives of those around me. I specialize in creating software
