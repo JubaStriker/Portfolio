@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../assets/BG-DP.png'
 
 const About = () => {
     return (
@@ -25,6 +26,10 @@ const About = () => {
                             a software expert available at your fingertips?
                         </p>
                     </div>
+                </div>
+                <div className='flex flex-col md:flex-row max-w-[1000px] md:gap-32 my-20 justify-between items-center'>
+                    <img data-aos="fade-up" src={img} alt="" className='h-[300px] w-[250px] rounded-full' />
+                    <h1 className='pb-44 md:py-0' data-aos="fade-down">Here I am. A 23 years old web developer. Currently doing my 2nd year of B.Sc (Engineering) in Electrical and Electronic Engineering.</h1>
 
                 </div>
             </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-lg'>
+        <div className='fixed w-full z-30 top-0 h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-lg'>
             <div>
                 <Link to='home' smooth={true} duration={500}>
                     <img src={JH} alt='Logo' style={{ width: '90px' }} />
@@ -67,33 +67,33 @@ const Navbar = () => {
                 className={
                     !nav
                         ? 'hidden'
-                        : 'mt-96 mr-10 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+                        : 'mt-72 mr-10 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
                 }
             >
-                <li className='py-6 text-4xl hover:text-white'>
+                <li className='py-3 text-xl hover:text-white'>
                     <Link onClick={handleClick} to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-3 text-xl'>
                     {' '}
                     <Link onClick={handleClick} to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-3 text-xl'>
                     {' '}
                     <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-3 text-xl'>
                     {' '}
                     <Link onClick={handleClick} to='work' smooth={true} duration={500}>
                         Work
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-3 text-xl'>
                     {' '}
                     <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
                         Contact

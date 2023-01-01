@@ -13,10 +13,10 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Home = () => {
     return (
-        <div name='home' className='w-full min-h-screen bg-[#0a192f]'>
+        <div name='home' className='w-full min-h-screen bg-[#0a192f] pb-64 md:pb-40'>
 
             {/* Container */}
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center '>
                 <div className='flex pt-[200px] flex-col md:flex-row justify-evenly items-center'>
                     <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                         <p className='text-pink-600'>Hi, my name is</p>
@@ -45,8 +45,9 @@ const Home = () => {
 
 
                 </div>
-                <div className='lg:hidden'>
-                    <ul>
+                {/* Mobile  */}
+                <div className='lg:hidden mb-36'>
+                    <ul className='grid grid-cols-2'>
                         <li className='w-[160px] h-[60px] flex justify-between items-center  bg-blue-600'>
                             <a
                                 className='flex justify-between items-center w-full text-gray-300 pl-2'
