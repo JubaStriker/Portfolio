@@ -9,6 +9,8 @@ import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Mongo from '../assets/mongo.png'
 import Bootstrap from '../assets/Bootstrap.png'
+import Express from '../assets/Ex.png'
+import JWT from '../assets/JWT.png'
 
 const Skills = () => {
     return (
@@ -63,11 +65,12 @@ const Skills = () => {
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
                             data-aos-duration="1000"
-                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src={Firebase} alt='Firebase' />
-                            <p className='my-4'>Firebase</p>
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 mx-auto rounded-full' src={Express} alt='Express' />
+                            <p className='my-4'>Express</p>
                         </div>
                     </div>
+
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
                             data-aos-duration="1500"
@@ -84,12 +87,25 @@ const Skills = () => {
                             <p className='my-4'>MongoDB</p>
                         </div>
                     </div>
-                    <div>
-
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="500"
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 mx-auto' src={JWT} alt='JSON Web Token' />
+                            <p className='my-4'>JWT</p>
+                        </div>
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
                             data-aos-duration="1000"
+                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
+                            <img className='w-32 mx-auto' src={Firebase} alt='Firebase' />
+                            <p className='my-4'>Firebase</p>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1500"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 mx-auto' src={Tailwind} alt='Tailwind' />
                             <p className='my-4'>Tailwind</p>
@@ -97,15 +113,13 @@ const Skills = () => {
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="1500"
+                            data-aos-duration="2000"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 h-32 mx-auto' src={Bootstrap} alt='Bootstrap' />
                             <p className='my-4'>Bootstrap</p>
                         </div>
                     </div>
-                    <div>
 
-                    </div>
 
                 </div>
 
