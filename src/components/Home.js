@@ -24,7 +24,7 @@ const Home = () => {
                         <h2 data-aos="zoom-in" data-aos-duration="1500" className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I am a
                             <Typewriter
                                 options={{
-                                    strings: ['Web', 'MERN stack', 'Front End'],
+                                    strings: ['Web', 'MERN stack', 'Front End', 'Fullstack'],
                                     autoStart: true,
                                     loop: true,
                                 }}
