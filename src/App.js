@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Certifications />
       <Contact />
       <Blog />
       <Footer />
