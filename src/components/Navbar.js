@@ -100,6 +100,12 @@ const Navbar = () => {
                 </li>
                 <li className='py-3 text-xl'>
                     {' '}
+                    <Link onClick={handleClick} to='certifications' smooth={true} duration={500}>
+                        Certifications
+                    </Link>
+                </li>
+                <li className='py-3 text-xl'>
+                    {' '}
                     <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>
