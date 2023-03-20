@@ -45,6 +45,11 @@ const Navbar = () => {
                         Projects
                     </Link>
                 </li>
+                <li className='font-bold hover:text-pink-600 duration-75'>
+                    <Link to='certifications' smooth={true} duration={500}>
+                        Certifications
+                    </Link>
+                </li>
                 <li className='font-bold  hover:text-pink-600 duration-75'>
                     <Link to='contact' smooth={true} duration={500}>
                         Contact
