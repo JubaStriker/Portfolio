@@ -11,7 +11,7 @@ const Certifications = () => {
                     <p className='py-6'></p>
 
                     <div className='flex flex-col gap-5 justify-start items-center'>
-                        <img data-aos='fade-up' src={Certificate} alt="" className='h-3/4' />
+                        <img data-aos='fade-up' src={Certificate} alt="" className='h-3/4 mb-8' />
                         <img data-aos='fade-down' src={Recogletter} alt="" />
                     </div>
                 </div>
