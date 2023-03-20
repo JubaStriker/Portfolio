@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='w-full h-10  bg-[#0a192f]'>
             <h1 className='text-center text-gray-300'>
-                Md Jubair Hossain © 2022
+                Md Jubair Hossain © 2023
             </h1>
         </div>
     );
