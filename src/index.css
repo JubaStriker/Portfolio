@@ -15,6 +15,27 @@
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F8BBD0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EC407A;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F06292;
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
