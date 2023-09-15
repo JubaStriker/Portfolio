@@ -11,6 +11,7 @@ import Mongo from '../assets/mongo.png'
 import Bootstrap from '../assets/Bootstrap.png'
 import Express from '../assets/Ex.png'
 import JWT from '../assets/JWT.png'
+import Shopify from '../assets/shopify.png'
 
 const Skills = () => {
     return (
@@ -26,16 +27,16 @@ const Skills = () => {
                         <div data-aos="fade-right"
                             data-aos-duration="500"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src={Html} alt='Html' />
-                            <p className='my-4'>HTML</p>
+                            <img className='w-32 mx-auto' src={ReactImg} alt='React' />
+                            <p className='my-4'>React</p>
                         </div>
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
                             data-aos-duration="1000"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src={Css} alt='Css' />
-                            <p className='my-4'>CSS</p>
+                            <img className='w-32 mx-auto' src='https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png' alt='Next' />
+                            <p className='my-4'>Next</p>
                         </div>
                     </div>
                     <div className='hover:scale-110 duration-500'>
@@ -50,13 +51,33 @@ const Skills = () => {
                         <div data-aos="fade-right"
                             data-aos-duration="2000"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src={ReactImg} alt='React' />
-                            <p className='my-4'>React</p>
+                            <img className='w-32 mx-auto' src="https://cdn.iconscout.com/icon/free/png-256/free-typescript-1174965.png" alt='HJavaScript' />
+                            <p className='my-4'>TypeScript</p>
                         </div>
                     </div>
+
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
                             data-aos-duration="500"
+                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
+                            <img className='w-32 mx-auto' src={Html} alt='Html' />
+                            <p className='my-4'>HTML</p>
+                        </div>
+                    </div>
+
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1000"
+                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
+                            <img className='w-32 mx-auto' src={Css} alt='Css' />
+                            <p className='my-4'>CSS</p>
+                        </div>
+                    </div>
+
+
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1500"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
                             <img className='w-32 mx-auto' src={Node} alt='Node' />
                             <p className='my-4'>Node</p>
@@ -64,7 +85,7 @@ const Skills = () => {
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="1000"
+                            data-aos-duration="2000"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 mx-auto rounded-full' src={Express} alt='Express' />
                             <p className='my-4'>Express</p>
@@ -73,23 +94,34 @@ const Skills = () => {
 
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="1500"
-                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src={Github} alt='Github' />
-                            <p className='my-4'>Github</p>
-                        </div>
-                    </div>
-                    <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-right"
-                            data-aos-duration="2000"
+                            data-aos-duration="500"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 mx-auto' src={Mongo} alt='MongoDB' />
                             <p className='my-4'>MongoDB</p>
                         </div>
                     </div>
+
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="500"
+                            data-aos-duration="1000"
+                            className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
+                            <img className='w-32 mx-auto' src={Github} alt='Github' />
+                            <p className='my-4'>Github</p>
+                        </div>
+                    </div>
+
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1500"
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 h-32 mx-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/200px-Solidity_logo.svg.png" alt='JSON Web Token' />
+                            <p className='my-4'>Solidity</p>
+                        </div>
+                    </div>
+
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 mx-auto' src={JWT} alt='JSON Web Token' />
                             <p className='my-4'>JWT</p>
@@ -97,7 +129,7 @@ const Skills = () => {
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="1000"
+                            data-aos-duration="500"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
                             <img className='w-32 mx-auto' src={Firebase} alt='Firebase' />
                             <p className='my-4'>Firebase</p>
@@ -105,7 +137,7 @@ const Skills = () => {
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="1500"
+                            data-aos-duration="1000"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 mx-auto' src={Tailwind} alt='Tailwind' />
                             <p className='my-4'>Tailwind</p>
@@ -113,10 +145,18 @@ const Skills = () => {
                     </div>
                     <div className='hover:scale-110 duration-500'>
                         <div data-aos="fade-right"
-                            data-aos-duration="2000"
+                            data-aos-duration="1500"
                             className='shadow-md shadow-[#040c16]  p-4'>
                             <img className='w-32 h-32 mx-auto' src={Bootstrap} alt='Bootstrap' />
                             <p className='my-4'>Bootstrap</p>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 h-32 mx-auto' src={Shopify} alt='Shopify' />
+                            <p className='my-4'>Shopify</p>
                         </div>
                     </div>
 
