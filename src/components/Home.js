@@ -75,7 +75,7 @@ const Home = () => {
                         <li className='w-[160px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
                             <a
                                 className='flex justify-between items-center w-full text-gray-300 pl-2'
-                                href='https://drive.google.com/file/d/1wuRkAQnS53aXNn4FOCsRHybpw56NvA_4/view?usp=sharing' target="_blank" rel="noreferrer"
+                                href='https://drive.google.com/file/d/1AsJnzlET1tB44ZZtJXcjFMrh1zYvsWxu/view?usp=sharing' target="_blank" rel="noreferrer"
                             >
                                 Resume <BsFillPersonLinesFill size={30} />
                             </a>
