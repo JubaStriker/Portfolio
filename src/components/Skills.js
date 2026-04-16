@@ -12,6 +12,10 @@ import Bootstrap from '../assets/Bootstrap.png'
 import Express from '../assets/Ex.png'
 import JWT from '../assets/JWT.png'
 import Shopify from '../assets/shopify.png'
+import Next from '../assets/next.png'
+import Solidity from '../assets/solidity.png'
+import Nest from '../assets/nest.png'
+import GraphQL from '../assets/graphql.png'
 
 const Skills = () => {
     return (
@@ -35,7 +39,7 @@ const Skills = () => {
                         <div data-aos="fade-right"
                             data-aos-duration="1000"
                             className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4'>
-                            <img className='w-32 mx-auto' src='https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png' alt='Next' />
+                            <img className='w-32 mx-auto' src={Next} alt='Next' />
                             <p className='my-4'>Next</p>
                         </div>
                     </div>
@@ -114,7 +118,7 @@ const Skills = () => {
                         <div data-aos="fade-right"
                             data-aos-duration="1500"
                             className='shadow-md shadow-[#040c16]  p-4'>
-                            <img className='w-32 h-32 mx-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/200px-Solidity_logo.svg.png" alt='JSON Web Token' />
+                            <img className='w-38 h-32 mx-auto' src={Solidity} alt='Solidity' />
                             <p className='my-4'>Solidity</p>
                         </div>
                     </div>
@@ -159,8 +163,28 @@ const Skills = () => {
                             <p className='my-4'>Shopify</p>
                         </div>
                     </div>
+                    <div className='hover:scale-110 duration-500'>
 
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1500"
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 h-32 mx-auto' src={Nest} alt='Nest ' />
+                            <p className='my-4'>Nest</p>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1000"
+                            className='shadow-md shadow-[#040c16]  p-4'>
+                            <img className='w-32 mx-auto' src={GraphQL} alt='GraphQL' />
+                            <p className='my-4'>GraphQL</p>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
 
+                    </div>
                 </div>
 
             </div>
